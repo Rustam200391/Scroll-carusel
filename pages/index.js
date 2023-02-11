@@ -45,6 +45,7 @@ export default function Home() {
       <HomeLayout>
         {images.map((image, index) => (
           <Card
+            icon={<PoweroffOutlined />}
             key={image.id}
             imgSrc={image.urls.regular}
             imgAlt={image.alt_description}
